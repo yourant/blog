@@ -22,12 +22,11 @@ export default {
         if (this.$el.parentNode) {
             this.$el.parentNode.removeChild(this.$el);
         }
-        document.querySelector('.home-link .logo').style.visibility = 'visible';
         localStorage.removeItem('bounding');
     },
     methods: {
         doAni() {
-            const o = JSON.parse(localStorage.getItem('bouding') || '{}');
+            const o = JSON.parse(localStorage.getItem('bounding') || '{}');
             const $el = this.$refs.logo;
             if (!o || !o.width || !$el) return;
             const n = $el.getBoundingClientRect();
