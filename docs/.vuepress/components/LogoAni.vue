@@ -22,7 +22,6 @@ export default {
         if (this.$el.parentNode) {
             this.$el.parentNode.removeChild(this.$el);
         }
-        localStorage.removeItem('bounding');
     },
     methods: {
         doAni() {
@@ -36,13 +35,14 @@ export default {
             const deltaH = o.height / n.height;
 
             $el.animate([
-                { transform: `translate(${deltaX}px, ${deltaY}px) scale(${deltaW}, ${deltaH})` },
-                { transform: 'none' },
+                { transform: `translate(${deltaX}px, ${deltaY}px) scale(${deltaW}, ${deltaH})`, borderRadius: '50%', borderWidth: '5px' },
+                { transform: 'none', borderRadius: 0, borderWidth: 0 },
             ], {
-                duration: 2000,
+                duration: 2500,
                 fill: 'both',
-                easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
+                easing: 'cubic-bezier(0.36, 1, 0.22, 1)',
             });
+            localStorage.removeItem('bounding');
         },
     }
 };
@@ -56,9 +56,12 @@ export default {
     height: 2.2rem;
     width: 2.2rem;
     z-index: 99;
+    overflow: hidden;
+    border: 0 solid rbgr(255,255,255,0.35)
     img {
         width: 100%;
         height: 100%;
+        object-fit: contain;
     }
 }
 </style>
