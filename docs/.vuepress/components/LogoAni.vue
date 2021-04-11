@@ -1,6 +1,6 @@
 <template>
     <div class="logo-animation" ref="logo">
-        <img :src="$withBase('//assets/common/logo.png')" />
+        <img :src="$withBase('/assets/common/logo.png')" />
     </div>
 </template>
 
