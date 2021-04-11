@@ -6,7 +6,7 @@ const htmlModules = require('./themeConfig/htmlModules.js');
 module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '//assets/common/logo.JPG', // 导航栏logo
+  logo: '//assets/common/logo.png', // 导航栏logo
   repo: 'lacorda/blog', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '../assets/common/logo.JPG',
+    avatar: '../assets/common/logo.png',
     name: '小兔在冲浪',
     slogan: '前端菜鸟',
   },
