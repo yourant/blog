@@ -18,7 +18,8 @@ export default {
             body.append(this.$el);
         })
     },
-    destroyed() {
+    beforeDestroy() {
+        document.querySelector('.home-link .logo').style.visibility = 'visible';
         if (this.$el.parentNode) {
             this.$el.parentNode.removeChild(this.$el);
         }
@@ -40,7 +41,7 @@ export default {
             ], {
                 duration: 2500,
                 fill: 'both',
-                easing: 'cubic-bezier(0.36, 1, 0.22, 1)',
+                easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
             });
             localStorage.removeItem('bounding');
         },
