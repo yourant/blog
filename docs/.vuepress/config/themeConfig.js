@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/assets/common/logo.png',
+    avatar: '/blog/assets/common/logo.png',
     name: '小兔在冲浪',
     slogan: '前端菜鸟',
   },
