@@ -18,3 +18,4 @@ git commit -m "deploy"
 git push -f git@github.com:Lacorda/blog.git master:gh-pages # 推送到github gh-pages分支
 
 cd -
+rm -rf docs/.vuepress/dist
