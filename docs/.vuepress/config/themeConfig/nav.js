@@ -8,31 +8,42 @@ module.exports = [
       {
         text: '基础知识',
         items: [
-          { text: 'JavaScript', link: '/note/javaScript/' },
-          { text: 'ES6', link: '/note/es6/' },
-          { text: 'TypeScript', link: '/note/typeScript/' },
-          { text: 'JS设计模式', link: '/pages/design/' },
+          { text: 'JavaScript基础', link: '/pages/a0057b/' },
+          { text: 'ES6', link: '/pages/a0057b/' },
+          { text: 'HTML与CSS', link: '/pages/a0057b/' },
+          { text: 'JS设计模式', link: '/pages/a0057b/' },
         ],
       },
       {
         text: '插件 | 框架 | 服务',
         items: [
-          { text: 'Vue', link: '/note/vue/' },
-          { text: 'React', link: '/note/react/' },
-          { text: 'Angular', link: '/note/angular/' },
-          { text: 'Webpack', link: '/note/webpack/' },
-          { text: 'Nodejs', link: '/note/nodejs/' },
+          { text: 'Vue', link: '/pages/a0057b/' },
+          { text: 'React', link: '/pages/a0057b/' },
+          { text: 'Webpack', link: '/pages/a0057b/' },
+          { text: 'Nodejs', link: '/pages/a0057b/' },
         ],
       },
     ],
   },
   {
-    text: 'HTML与CSS',
-    link: '/ui/',
+    text: '算法题解',
+    link: '/algorithm/',
+    items: [
+        { text: '排序算法', link: '/pages/a0057b/' },
+        { text: 'LeetCode', link: '/pages/a0057b/' },
+        { text: '算法面试题解', link: '/pages/a0057b/' },
+    ],
   },
   {
-    text: '算法题解',
-    link: '/algorithm/'
+    text: '第三方服务',
+    link: '/services/',
+    items: [
+        { text: 'Vue', link: '/pages/a0057b/' },
+        { text: 'React', link: '/pages/a0057b/' },
+        { text: 'Webpack', link: '/pages/a0057b/' },
+        { text: 'Eslint与Babel', link: '/pages/a0057b/' },
+        { text: 'Nodejs', link: '/pages/a0057b/' },
+    ],
   },
   {
     text: '工具使用',
