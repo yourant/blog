@@ -5,7 +5,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "editFm": "node utils/editFrontmatter.js",
-    "deploy": "GH=1 npm run build && bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {

@@ -2,20 +2,20 @@
 module.exports = [
   { text: '首页', link: '/' },
   {
-    text: '前端博文',
+    text: '基础|博文',
     link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {
-        text: '基础知识',
+        text: '基础知识点',
         items: [
-          { text: 'JavaScript基础', link: '/pages/a0057b/' },
+          { text: 'JavaScript', link: '/pages/a0057b/' },
           { text: 'ES6', link: '/pages/a0057b/' },
           { text: 'HTML与CSS', link: '/pages/a0057b/' },
           { text: 'JS设计模式', link: '/pages/a0057b/' },
         ],
       },
       {
-        text: '插件 | 框架 | 服务',
+        text: '博文',
         items: [
           { text: 'Vue', link: '/pages/a0057b/' },
           { text: 'React', link: '/pages/a0057b/' },
