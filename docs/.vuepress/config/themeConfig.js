@@ -47,13 +47,13 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: '小兔在冲浪', // 必需
+    name: '小兔', // 必需
     link: 'https://github.com/lacorda', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: '/blog/assets/common/logo.png',
-    name: '小兔在冲浪',
+    name: '小兔',
     slogan: '前端菜鸟',
   },
   social: {
