@@ -29,7 +29,7 @@ module.exports = [
     text: '算法|试题',
     link: '/algorithm/',
     items: [
-        { text: '排序算法', link: '/pages/da1588/' },
+        { text: '排序算法', link: '/pages/7d4d69/' },
         { text: 'LeetCode', link: '/pages/a0057b/' },
         { text: '算法面试题解', link: '/pages/a0057b/' },
     ],
