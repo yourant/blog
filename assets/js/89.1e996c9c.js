@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[89],{547:function(t,e,n){"use strict";n.r(e);var s=n(15),o=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("Firefox用归并 ，Chrome小于22个字符用插入，大于22个字符用快排")])])}),[],!1,null,null,null);e.default=o.exports}}]);
